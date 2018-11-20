@@ -1,0 +1,22 @@
+.footer {
+	background: #eeeeee;
+
+	@media (min-width: 768px) {
+		// background: transparent;
+		// text-align: center;
+
+		.wrap {
+			// padding-top: 0;
+		}
+	}
+
+	nav {
+		a {
+			display: block;
+
+			@media (min-width: 1200px) {
+				margin: 0.5em 0;
+			}
+		}
+	}
+}

@@ -1,0 +1,89 @@
+// -------------------------------------------------- //
+// Global
+// -------------------------------------------------- //
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin-top: 0;
+	font-weight: 400;
+}
+
+// -------------------------------------------------- //
+// Headings
+// -------------------------------------------------- //
+
+h1 {
+	@include fluid-type(320px, 1200px, 24px, 48px);
+
+	line-height: 1.333;
+
+	@media (min-width: 1024px) {
+		line-height: 1.2;
+	}
+}
+
+// -------------------------------------------------- //
+// Links
+// -------------------------------------------------- //
+
+a {
+	svg {
+		width: 16px;
+		height: 16px;
+
+		@media(min-width: 768px) {
+			width: 20px;
+			height: 20px;
+		}
+
+		@media(min-width: 1024px) {
+			width: 24px;
+			height: 24px;
+		}
+	}
+}
+
+a[data-label] {
+	position: relative;
+
+	&:hover:after {
+		opacity: 1;
+		pointer-events: auto;
+	}
+
+	&:after {
+		content: attr(data-label);
+
+		position: absolute;
+		bottom: calc(100% + 16px);
+		left: 50%;
+		transform: translateX(-50%);
+
+		opacity: 0;
+
+		display: block;
+		padding: 0.833em;
+
+		background: rgba(0, 0, 0, 0.85);
+		border-radius: 3px;
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+		color: #ffffff;
+		font-size: 13px;
+		line-height: 1em;
+		text-decoration: none;
+		text-transform: none;
+		letter-spacing: 0;
+		white-space: nowrap;
+
+		pointer-events: none;
+
+		transition: all 300ms ease;
+
+	}
+}

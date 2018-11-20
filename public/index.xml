@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Matt Axell - Digital Designer | Brighton on Matt Axell</title>
+    <link>/</link>
+    <description>Recent content in Matt Axell - Digital Designer | Brighton on Matt Axell</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 16 Nov 2018 13:57:04 +0000</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Refsix</title>
+      <link>/work/refsix/</link>
+      <pubDate>Mon, 19 Nov 2018 08:17:09 +0000</pubDate>
+      
+      <guid>/work/refsix/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sussex Performance Centre</title>
+      <link>/work/sussex-performance-centre/</link>
+      <pubDate>Mon, 19 Nov 2018 08:16:51 +0000</pubDate>
+      
+      <guid>/work/sussex-performance-centre/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Touchline</title>
+      <link>/work/touchline/</link>
+      <pubDate>Mon, 19 Nov 2018 08:16:41 +0000</pubDate>
+      
+      <guid>/work/touchline/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Brighton Bike Sheds</title>
+      <link>/work/brighton-bike-sheds/</link>
+      <pubDate>Mon, 19 Nov 2018 08:16:33 +0000</pubDate>
+      
+      <guid>/work/brighton-bike-sheds/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Andalucia - Tapas &amp; Wine Bar</title>
+      <link>/work/andalucia/</link>
+      <pubDate>Mon, 19 Nov 2018 08:16:14 +0000</pubDate>
+      
+      <guid>/work/andalucia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fentons IT</title>
+      <link>/work/fentons-it/</link>
+      <pubDate>Thu, 15 Nov 2018 16:05:44 +0000</pubDate>
+      
+      <guid>/work/fentons-it/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

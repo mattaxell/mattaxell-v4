@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Matt Axell</title>
+    <link>/categories/</link>
+    <description>Recent content in Categories on Matt Axell</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 19 Nov 2018 08:16:14 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Brand Design</title>
+      <link>/categories/brand-design/</link>
+      <pubDate>Mon, 19 Nov 2018 08:16:14 +0000</pubDate>
+      
+      <guid>/categories/brand-design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Product Design</title>
+      <link>/categories/product-design/</link>
+      <pubDate>Mon, 19 Nov 2018 08:16:41 +0000</pubDate>
+      
+      <guid>/categories/product-design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Responsive E Commerce Design</title>
+      <link>/categories/responsive-e-commerce-design/</link>
+      <pubDate>Mon, 19 Nov 2018 08:16:33 +0000</pubDate>
+      
+      <guid>/categories/responsive-e-commerce-design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Responsive Web Design</title>
+      <link>/categories/responsive-web-design/</link>
+      <pubDate>Mon, 19 Nov 2018 08:16:51 +0000</pubDate>
+      
+      <guid>/categories/responsive-web-design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ui Design</title>
+      <link>/categories/ui-design/</link>
+      <pubDate>Mon, 19 Nov 2018 08:17:09 +0000</pubDate>
+      
+      <guid>/categories/ui-design/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

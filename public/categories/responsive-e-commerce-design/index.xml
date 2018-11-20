@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Responsive E Commerce Design on Matt Axell</title>
+    <link>/categories/responsive-e-commerce-design/</link>
+    <description>Recent content in Responsive E Commerce Design on Matt Axell</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 19 Nov 2018 08:16:33 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/responsive-e-commerce-design/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Brighton Bike Sheds</title>
+      <link>/work/brighton-bike-sheds/</link>
+      <pubDate>Mon, 19 Nov 2018 08:16:33 +0000</pubDate>
+      
+      <guid>/work/brighton-bike-sheds/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,28 @@
+{{ define "main" }}
+	<div class="hero">
+		<div class="wrap">
+			<div class="hero__content">
+				<h1>Hey, I’m Matt &ndash; Digital Designer from the South East of England</h1>
+				<a href="/work" class="button">View my work<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7" /><polyline points="7 7 17 7 17 17" /></svg></a>
+			</div>
+			<img src="img/matt.jpg" alt="Matt Axell" />
+		</div>
+	</div>
+	<div class="wrap insulate">
+		<div class="group fx-justify">
+			<div class="grid lg:g-3">
+				{{ .Content }}
+			</div>
+			<div class="grid lg:g-3 xl:g-2">
+				<p class="light">
+					UI/UX design <br>
+					Responsive web design <br>
+					Product design <br>
+					E-commerce design <br>
+					Prototyping <br>
+					Front-end development
+				</p>
+			</div>
+		</div>
+	</div>
+{{ end }}

@@ -1,0 +1,33 @@
+.header {
+	padding: 40px 0;
+
+	@media ( min-width: 1024px ) {
+		padding: 60px 0;
+	}
+
+	.wrap {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		justify-items: center;
+	}
+
+	.logo-anchor {
+        grid-column: 2 / 3;
+		&:visited { color: inherit !important; }
+	}
+
+	.logo {
+		display: block;
+		width: 57px;
+		height: 32px;
+
+		@media ( min-width: 1024px ) {
+			width: 80px;
+			height: 45px;
+		}
+	}
+
+	.tag {
+        justify-self: end;
+	}
+}

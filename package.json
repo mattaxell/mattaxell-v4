@@ -1,0 +1,11 @@
+{
+  "name": "mattaxell",
+  "version": "4.0.0",
+  "description": "Matt Axell's Personal Site",
+  "author": "",
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^9.3.1",
+    "postcss-cli": "^6.0.1"
+  }
+}
