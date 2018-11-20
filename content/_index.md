@@ -1,5 +1,5 @@
 ---
-title: "Matt Axell - Digital Designer | Brighton"
+title: "Digital Designer | Brighton"
 date: 2018-11-16T13:57:04Z
 draft: false
 ---

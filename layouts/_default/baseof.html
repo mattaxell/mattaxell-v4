@@ -15,16 +15,16 @@
 		{{ end }}
 
 		<title>{{ .Title }} | {{ .Site.Title }}</title>
-		<meta name="description" content="Matt Axell is a Digital Designer from the South East of England">
+		<meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}Matt Axell is a Digital Designer from the South East of England{{ end }}">
 		<meta property="og:type" content="website">
 		<meta property="og:url" content="{{ getenv "URL" }}{{ .URL }}">
 		<meta property="og:title" content="{{ .Title }} | {{ .Site.Title }}">
-		<meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Title }}{{ end }} | Matt Axell | Digital Designer">
+		<meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else }}Matt Axell is a Digital Designer from the South East of England{{ end }}">
 		<meta property="og:image" content="/img/og.jpg">
 		<meta property="og:image:alt" content="Matt Axell">
 		<meta name="twitter:card" content="summary" />
 		<meta name="twitter:title" content="{{ .Title }} | {{ .Site.Title }}" />
-		<meta name="twitter:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Title }}{{ end }} | Matt Axell | Digital Designer" />
+		<meta name="twitter:description" content="{{ if .Description }}{{ .Description }}{{ else }}Matt Axell is a Digital Designer from the South East of England{{ end }}" />
 		<meta name="twitter:image" content="{{ if getenv "URL" }}{{ getenv "URL" }}/{{ else }}{{ $.Site.BaseURL }}{{ end }}images/og.jpg" />
 		<link rel="apple-touch-icon" sizes="180x180" href="/img/icons/apple-touch-icon.png">
 		<link rel="icon" type="image/png" sizes="32x32" href="/img/icons/favicon-32x32.png">
